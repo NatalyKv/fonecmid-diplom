@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d171ba8a-79af-407b-80b3-2d36667e2ca1">
+  <producedTypes>
+    <selectionType typeId="e5ea4064-f337-43dd-953e-fb7f2c117434" valueTypeId="cee1d8ab-e86d-43a8-bd80-db5f6ab6e7f9"/>
+    <listType typeId="3a98cbe7-9c09-47cc-b4f1-d2420b3c04a1" valueTypeId="4437dab3-2eeb-4bb4-8c4b-f250c1c40179"/>
+    <managerType typeId="2ce4d9b0-aebd-4e81-a28d-7d96865cf15b" valueTypeId="f43caac5-a0de-47fb-a1e1-2d91f117ffa1"/>
+    <recordSetType typeId="973cb799-c781-4444-bc98-4a435acecf60" valueTypeId="129123f7-633f-4116-97b2-ba506bda0e05"/>
+    <recordKeyType typeId="93556b71-4188-4f37-9a9f-0822626f5a01" valueTypeId="8970da4a-3f6e-481c-9658-2d792b8de65a"/>
+    <recordType typeId="51776244-b3f7-4b95-9e23-37489945a0b3" valueTypeId="78dc2996-6843-4a1d-bdd9-85ec8680798b"/>
+  </producedTypes>
+  <name>ВКМ_ДниВОтпуске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дни в отпуске</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0ae45c46-0059-4611-adbd-f95f2f3a7971">
+    <name>ДнейВОтпуске</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней в отпуске</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c2a575c2-5632-4f74-af1a-f1a95ff5ccda">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
